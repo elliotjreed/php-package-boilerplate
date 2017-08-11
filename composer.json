@@ -1,0 +1,19 @@
+{
+    "name": "elliotjreed/php-module-boilperplate",
+    "license": "MIT",
+    "type": "project",
+    "description": "Example PHP command-line application.",
+    "autoload": {
+        "psr-4" : {
+            "Example\\" : "src/Example/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "Tests\\Example\\" : "tests/Example/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    }
+}
