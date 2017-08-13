@@ -1,10 +1,8 @@
 ---
-title: PHP Module
+title: PHP Command Line Application
 date: 2017-08-13
 tags:
-  - module
-  - composer
-  - package
+  - command-line
 ---
 
 PHP is a general-purpose server-side scripting language primarily used in web development. Originally created by Rasmus Lerdorf in 1994, it is now by The PHP Development Team.
@@ -24,7 +22,7 @@ PHP originally stood for &ldquo;Personal Home Page&rdquo;, but now stands for &l
 
 PHP packages were traditionally installed via PEAR (PHP Extension and Application Repository), but more recently the standard package and dependency management tool is Composer.
 
-Composer lets us run install commands to add packages to our system, for example `composer install phpunit` would add the unit testing framework PHPUnit to our system. 
+Composer lets us run install commands to add packages to our system, for example `composer require phpunit` would add the unit testing framework PHPUnit to our system. 
 
 For instructions on how to install Composer visit [getcomposer.org](https://getcomposer.org/download/).
 
