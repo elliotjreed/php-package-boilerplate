@@ -1,6 +1,6 @@
 # Vanilla PHP Project
 
-This repository shows a basic setup for a PHP module or application in PHP.
+This repository shows a basic setup for a PHP package or application in PHP.
 
 
 ## Getting Started
@@ -68,5 +68,4 @@ You should see the text &ldquo;Good Morning Ada Lovelace&rdquo; being printed (o
 
 ## License
 
-This project is licensed under the MIT License - see the [license.md](license.md) file for details.
-
+This project is licensed under the MIT License - see the [LICENCE.md](LICENCE.md) file for details.

@@ -1,8 +1,8 @@
 {
-    "name": "elliotjreed/php-module-boilperplate",
+    "name": "elliotjreed/php-package-boilperplate",
     "license": "MIT",
     "type": "project",
-    "description": "Example PHP command-line application.",
+    "description": "Example PHP package.",
     "autoload": {
         "psr-4" : {
             "Example\\" : "src/Example/"
