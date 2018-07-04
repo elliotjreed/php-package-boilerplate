@@ -9,12 +9,11 @@ use DateTime;
 
 class GreetingTest extends TestCase
 {
-
-    public function testItGreetsUser()
+    public function testItGreetsUser(): void
     {
         $dateTime = new DateTime();
 
-        $greeting = new Greeting($dateTime,'Rasmus Lerdorf');
+        $greeting = new Greeting($dateTime, 'Rasmus Lerdorf');
 
         $expectedResultContainsPartialGreeting = 'Good';
         $expectedResultContainsName = 'Rasmus Lerdorf';
@@ -24,14 +23,14 @@ class GreetingTest extends TestCase
         $this->assertContains($expectedResultContainsName, $actualResult);
     }
 
-    public function testItGreetsUserInTheMorning()
+    public function testItGreetsUserInTheMorning(): void
     {
         $dateTime = $this->createMock(DateTime::class);
 
         $dateTime->method('format')
             ->willReturn(9);
 
-        $greeting = new Greeting($dateTime,'Grace Hopper');
+        $greeting = new Greeting($dateTime, 'Grace Hopper');
 
         $expectedResult = 'Good Morning Grace Hopper';
         $actualResult = $greeting->sayHello();
@@ -39,14 +38,14 @@ class GreetingTest extends TestCase
         $this->assertEquals($expectedResult, $actualResult);
     }
 
-    public function testItGreetsUserInTheAfternoon()
+    public function testItGreetsUserInTheAfternoon(): void
     {
         $dateTime = $this->createMock(DateTime::class);
 
         $dateTime->method('format')
             ->willReturn(12);
 
-        $greeting = new Greeting($dateTime,'Alan Turing');
+        $greeting = new Greeting($dateTime, 'Alan Turing');
 
         $expectedResult = 'Good Afternoon Alan Turing';
         $actualResult = $greeting->sayHello();
@@ -54,3 +53,4 @@ class GreetingTest extends TestCase
         $this->assertEquals($expectedResult, $actualResult);
     }
 }
+

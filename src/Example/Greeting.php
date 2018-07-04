@@ -28,8 +28,7 @@ class Greeting
             return 'Afternoon';
         } elseif ($this->hour >= 18 || $this->hour <= 21) {
             return 'Evening';
-        } else {
-            return 'Night';
         }
+        return 'Night';
     }
 }
