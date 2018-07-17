@@ -1,4 +1,6 @@
 # Vanilla PHP Project
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Felliotjreed%2Fphp-package-boilerplate.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Felliotjreed%2Fphp-package-boilerplate?ref=badge_shield)
+
 
 This repository shows a basic setup for a PHP package or application in PHP.
 
@@ -69,3 +71,6 @@ You should see the text &ldquo;Good Morning Ada Lovelace&rdquo; being printed (o
 ## License
 
 This project is licensed under the MIT License - see the [LICENCE.md](LICENCE.md) file for details.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Felliotjreed%2Fphp-package-boilerplate.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Felliotjreed%2Fphp-package-boilerplate?ref=badge_large)
