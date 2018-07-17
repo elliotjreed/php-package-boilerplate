@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Felliotjreed%2Fphp-package-boilerplate.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Felliotjreed%2Fphp-package-boilerplate?ref=badge_shield)
+
 # Vanilla PHP Project
 
 This repository shows a basic setup for a PHP package or application in PHP.
