@@ -35,7 +35,7 @@ This will install all dependencies needed for the project.
 All tests can be run by executing
 
 ```
-vendor/phpunit/phpunit/phpunit
+vendor/bin/phpunit
 ```
 
 `phpunit` will automatically find all tests inside the `test` directory and run them based on the configuration in the `phpunit.xml` file.
