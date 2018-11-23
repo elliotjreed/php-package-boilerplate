@@ -8,6 +8,7 @@ use DateTime;
 class Greeting
 {
     private $name;
+    private $hour;
 
     public function __construct(DateTime $dateTime, string $name = 'Stranger')
     {
@@ -24,11 +25,16 @@ class Greeting
     {
         if ($this->hour >= 5 && $this->hour <= 11) {
             return 'Morning';
-        } elseif ($this->hour >= 12 && $this->hour <= 17) {
+        }
+
+        if ($this->hour >= 12 && $this->hour <= 17) {
             return 'Afternoon';
-        } elseif ($this->hour >= 18 || $this->hour <= 21) {
+        }
+
+        if ($this->hour >= 18 || $this->hour <= 21) {
             return 'Evening';
         }
+
         return 'Night';
     }
 }

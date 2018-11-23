@@ -53,4 +53,3 @@ class GreetingTest extends TestCase
         $this->assertEquals($expectedResult, $actualResult);
     }
 }
-
