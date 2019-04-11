@@ -19,8 +19,8 @@ class GreetingTest extends TestCase
         $expectedResultContainsName = 'Rasmus Lerdorf';
         $actualResult = $greeting->sayHello();
 
-        $this->assertContains($expectedResultContainsPartialGreeting, $actualResult);
-        $this->assertContains($expectedResultContainsName, $actualResult);
+        $this->assertStringContainsString($expectedResultContainsPartialGreeting, $actualResult);
+        $this->assertStringContainsString($expectedResultContainsName, $actualResult);
     }
 
     public function testItGreetsUserInTheMorning(): void
