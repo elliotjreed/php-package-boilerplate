@@ -27,7 +27,7 @@ We can list our dependencies in a `composer.json` file and run `composer install
 
 An example `composer.json` file looks like this:
 
-{% highlight php %}
+```json
 {
     "name": "example-project",
     "require": {
@@ -37,7 +37,7 @@ An example `composer.json` file looks like this:
         "phpunit/phpunit": "^8.4"
     }
 }
-{% endhighlight %}
+```
 
 The "require" block tells Composer that the Twig templating package is required for production use and can install Twig with a version of 3.x.x (ie. up to, but not including, version 4).
 
