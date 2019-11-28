@@ -54,9 +54,9 @@ You should see the text "Hello Ada Lovelace" on your screen.
 
 ## Built With
 
-- [PHP](https://secure.php.net/)
-- [Composer](https://getcomposer.org/)
-- [PHPUnit](https://phpunit.de/)
+  - [PHP](https://secure.php.net/)
+  - [Composer](https://getcomposer.org/)
+  - [PHPUnit](https://phpunit.de/)
 
 ## License
 
