@@ -1,4 +1,4 @@
-# PHP Command Line Application
+# PHP Package boilerplate project explanation
 
 PHP is a general-purpose server-side scripting language primarily used in web development. Originally created by Rasmus Lerdorf in 1994, it is now by The PHP Development Team.
 
@@ -6,10 +6,10 @@ PHP originally stood for "Personal Home Page", but now stands for "PHP: Hypertex
 
 ## Further Material
 
-- Homepage: [php.net](https://secure.php.net/)
-- Documentation: [php.net/docs.php](https://secure.php.net/docs.php)
-- PHP: The Right Way: [phptherightway.com](http://www.phptherightway.com/)
-- Interactive PHP Tutorial: [learn-php.org](http://www.learn-php.org/)
+  - Homepage: [php.net](https://secure.php.net/)
+  - Documentation: [php.net/docs.php](https://secure.php.net/docs.php)
+  - PHP: The Right Way: [phptherightway.com](http://www.phptherightway.com/)
+  - Interactive PHP Tutorial: [learn-php.org](http://www.learn-php.org/)
 
 ## Topics, Tools and Terms
 
@@ -63,7 +63,6 @@ composer update
 
 Composer will also generate a `composer.lock` file on each `composer update` and the initial `composer install`. This is not meant to be edited directly, it tells Composer to use specific versions of packages - particularly useful when hyhou want your development dependencies to match what you will push to production.
 
-
 ### Testing Tools
 
 There are a number of testing tools available for PHP. The most popular one is [PHPUnit](https://phpunit.de/). PHPUnit follows the classic xUnit approach.
@@ -80,7 +79,6 @@ A typical directory structure for a PHP project consists of a `src` directory th
 
 Another common convention is having a `bin` directory that may contain executable files to start your application.
 
-  - bin/
   - src/
   - test/
   - public/
@@ -98,7 +96,7 @@ Tests match their production code file names with a `Test` suffix, e.g. tests fo
 
 ## Example Project
 
-The main application consists of basically three files:
+The main application consists of basically two files:
 
 - `public/example.php` is the main executable that instantiates and runs:
   - `src/Example/Greeting.php` contains the main application.
@@ -115,9 +113,7 @@ vendor/phpunit/phpunit/phpunit
 
 #### Testing Approach
 
-The first test for the class `Greeting` verifies that the return value of the `sayHello` method contains the name of the person and also contains the initial greeting &ldquo;Good&rdquo;.
-
-The second and third tests uses stubs to override the default behaviour of the `DateTime` class injected into the class' constructor so that we can test the expected return value depending on the time of day.
+The test for the class `Greeting` verifies that the return value of the `sayHello` method returns the string "Hello {name}", where {name} is the value passed through to the constructor.
 
 ### Running the Application
 
