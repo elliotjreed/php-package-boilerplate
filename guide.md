@@ -125,4 +125,4 @@ php -S localhost:8000
 
 Then open your browser at `http://localhost:8000/example.php`
 
-You should see the text "Good Morning Ada Lovelace"; being printed (or similar depending on the time of day).
+You should see the text "Hello Ada Lovelace" being printed.
