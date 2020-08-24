@@ -42,10 +42,10 @@ The test for the class `Greeting` verifies that the return value of the `sayHell
 
 ## Running the Application
 
-PHP has an in-built server for local development. To run this change into the directory `public` and run
+PHP has an in-built server for local development. Can be run by executing
 
 ```
-php -S localhost:8000
+php -S localhost:8000 -t public
 ```
 
 Then open your browser at `http://localhost:8000/example.php`
