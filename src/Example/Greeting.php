@@ -6,8 +6,11 @@ namespace Example;
 
 class Greeting
 {
-    public function __construct(private string $name = 'Stranger')
+    private $name;
+
+    public function __construct(string $name = 'Stranger')
     {
+        $this->name = $name;
     }
 
     public function sayHello(): string
