@@ -12,7 +12,7 @@ For a version which is compatible with PHP 8.0 and above select the 8.0 Git tag 
 
 ## Getting Started
 
-PHP 7 or above and Composer is expected to be installed on our system.
+PHP 7.4 or above and Composer is expected to be installed on our system.
 
 ### Installing Composer
 
