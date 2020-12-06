@@ -4,9 +4,9 @@ This repository shows a basic setup for a PHP package or application in PHP.
 
 ## PHP Versions
 
-This version will work on PHP version 7.0 and above.
+This version will work on PHP version 7.4 and above.
 
-For a version which is compatible with PHP 7.4 and above select the 7.4 Git tag ([github.com/elliotjreed/php-package-boilerplate/tree/7.4](https://github.com/elliotjreed/php-package-boilerplate/tree/7.4)).
+For a version which is compatible with PHP 7.0 and above select the 7.0 Git tag ([github.com/elliotjreed/php-package-boilerplate/tree/7.0](https://github.com/elliotjreed/php-package-boilerplate/tree/7.0)).
 
 For a version which is compatible with PHP 8.0 and above select the 8.0 Git tag ([github.com/elliotjreed/php-package-boilerplate/tree/8.0](https://github.com/elliotjreed/php-package-boilerplate/tree/8.0)).
 

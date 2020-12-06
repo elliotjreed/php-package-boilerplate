@@ -6,7 +6,7 @@ namespace Example;
 
 class Greeting
 {
-    private $name;
+    private string $name;
 
     public function __construct(string $name = 'Stranger')
     {
