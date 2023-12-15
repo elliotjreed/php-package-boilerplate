@@ -34,7 +34,7 @@ An example `composer.json` file looks like this:
         "twig/twig": "^3.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.4"
+        "phpunit/phpunit": "^10.5"
     }
 }
 ```
