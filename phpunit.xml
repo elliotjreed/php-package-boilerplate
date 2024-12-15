@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" bootstrap="vendor/autoload.php" backupGlobals="false" colors="true" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd">
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" bootstrap="vendor/autoload.php" colors="true" xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd" cacheDirectory=".phpunit.cache">
   <coverage/>
   <testsuites>
-    <testsuite name="Example">
-      <directory>./tests/Example/</directory>
+    <testsuite name="all">
+      <directory>./tests/</directory>
     </testsuite>
   </testsuites>
+  <source>
+    <include>
+      <directory>./src/</directory>
+    </include>
+  </source>
 </phpunit>
